@@ -1,1 +1,85 @@
-noch nix
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lebenslauf von Matthias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9; /* Neutrale Hintergrundfarbe */
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #0078d7; /* Blau für die Überschrift */
+            color: white;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            border-bottom: 2px solid #0078d7;
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Matthias</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Persönliche Daten</h2>
+            <p><strong>Name:</strong> Matthias</p>
+            <p><strong>Geburtsdatum:</strong> 01.01.1990</p>
+            <p><strong>Adresse:</strong> Musterstraße 123, 12345 Musterstadt</p>
+            <p><strong>Telefon:</strong> +49 123 456789</p>
+            <p><strong>E-Mail:</strong> matthias@example.com</p>
+        </section>
+        <section>
+            <h2>Berufserfahrung</h2>
+            <ul>
+                <li><strong>2020 - heute:</strong> Softwareentwickler bei Beispiel GmbH</li>
+                <li><strong>2015 - 2020:</strong> IT-Support bei IT-Firma AG</li>
+                <li><strong>2013 - 2015:</strong> Praktikum bei WebTech Solutions</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Ausbildung</h2>
+            <ul>
+                <li><strong>2010 - 2015:</strong> Studium der Informatik an der Universität Musterstadt</li>
+                <li><strong>2007 - 2010:</strong> Fachabitur an der Musterschule</li>
+                <li><strong>2003 - 2007:</strong> Realschule in Musterstadt</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Fähigkeiten</h2>
+            <ul>
+                <li>Programmiersprachen: Java, Python, JavaScript, C++</li>
+                <li>Webentwicklung: HTML, CSS, React, Angular</li>
+                <li>Datenbanken: MySQL, PostgreSQL, MongoDB</li>
+                <li>Sprachen: Deutsch (Muttersprache), Englisch (fließend), Spanisch (Grundkenntnisse)</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Hobbys</h2>
+            <ul>
+                <li>Reisen und neue Kulturen entdecken</li>
+                <li>Fotografie und Bildbearbeitung</li>
+                <li>Programmieren von Open-Source-Projekten</li>
+                <li>Lesen von Fachbüchern und Romanen</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
